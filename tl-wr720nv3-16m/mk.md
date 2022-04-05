@@ -1,10 +1,7 @@
 再这个文件写入 <br>
 ./target/linux/ath79/image/generic-tp-link.mk<br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 ```
 define Device/tplink_tl-wr720n-v3 
   $(Device/tplink-16mlzma) 
