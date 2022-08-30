@@ -1,7 +1,7 @@
 dts文件放入<br>
 ./target/linux/ath79/dts/<br>
 
-再这个文件写入 <br>
+再把下面代码写入写入 <br>
 ./target/linux/ath79/image/generic-tp-link.mk<br>
 
 
