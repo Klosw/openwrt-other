@@ -1,4 +1,4 @@
-dts文件放入<br>
+dts以及dtsi文件放入<br>
 ./target/linux/ath79/dts/<br>
 
 再把下面代码写入下列文件中 <br>
