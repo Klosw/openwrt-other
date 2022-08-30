@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 read -p "请输入新客户端名称:" name 
 echo -e "\n"
 #easyrsa build-client-full $name nopass
@@ -32,7 +31,7 @@ else
         echo "<key>">>$ovpn
         cat $key >>$ovpn
         echo "</key>" >>$ovpn
-		echo "客户端添加完成 $ovpn"
+	echo "客户端添加完成 $ovpn"
     else 
         echo "def.ovpn 文件不存在"
     fi    
